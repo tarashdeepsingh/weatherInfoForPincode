@@ -15,7 +15,6 @@ This project is a Spring Boot application that provides weather information base
 - **Spring Boot** (for RESTful API development)
 - **Spring Data JPA** (for database interaction)
 - **MySQL** (for RDBMS)
-- **RestTemplate** (for making HTTP requests to external APIs)
 
 ### Prerequisites
 - Java Development Kit (JDK) 21 or later
@@ -30,7 +29,7 @@ This project is a Spring Boot application that provides weather information base
     ```
 
 2. **Set Up MySQL Database**:
-    - Create a database named `weatherdb` and execute the provided SQL script (data.sql) to set up the necessary tables.
+    - Create a database named `weatherdb` and execute the provided SQL script **(data.sql)** to set up the necessary tables.
 
 ### API Endpoints
 1. **Get Weather Information**
