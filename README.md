@@ -25,8 +25,8 @@ This project is a Spring Boot application that provides weather information base
 ### Steps to Run the Project
 1. **Clone the Repository**:
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone [<repository-url>](https://github.com/tarashdeepsingh/weatherInfoForPincode.git)
+    cd weatherInfoForPincode
     ```
 
 2. **Set Up MySQL Database**:
@@ -106,6 +106,12 @@ This project is a Spring Boot application that provides weather information base
 - Create an OpenWeather account: https://openweathermap.org/current
 - Login to your account and navigate to API keys.
 - Copy your API key
+
+### Update you mysql configurations in application.properties
+`
+spring.datasource.username=your mysql username
+spring.datasource.password=your mysql password
+`
 
 ## Project Directory Structure
 ``` bash
